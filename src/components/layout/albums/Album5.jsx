@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {FavouriteQantity} from '../FavouriteQantity';
+import {FavouriteQantity} from '../favourites/FavouriteQantity';
 
 // Bootstrap
 import {

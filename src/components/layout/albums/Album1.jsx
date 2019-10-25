@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Album_List from './Album_List';
-import { FavouriteQantity } from '../FavouriteQantity';
+import { FavouriteQantity } from '../favourites/FavouriteQantity';
 
 // Bootstrap
 import {
@@ -44,7 +44,6 @@ const mapStateToProps = (state) => ({
 const mapActionsToProps = (dispatch) => ({
     addToFavourite: (item) => {
         dispatch({ type: 'ADD_TO_FAVOURITE', payload: item })
-        localStorage.setItem('favourite', item);
     },
     removeFromFavourite: (item) => {
         dispatch({ type: 'REMOVE_FROM_FAVOURITE', payload: item })

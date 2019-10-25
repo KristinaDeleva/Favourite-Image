@@ -1,5 +1,3 @@
-import { ADD_TO_FAVOURITE, REMOVE_FROM_FAVOURITE } from '../types';
-
 const favouriteWithoutItem = (fav, item) => fav.filter(favItem => favItem.id !== item.id);
 
 const itemInFav = (fav, item) => fav.filter(favItem => favItem.id === item.id)[0];

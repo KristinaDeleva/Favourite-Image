@@ -19,7 +19,7 @@ import Album2 from './components/layout/albums/Album2';
 import Album3 from './components/layout/albums/Album3';
 import Album4 from './components/layout/albums/Album4';
 import Album5 from './components/layout/albums/Album5';
-import FavouriteList from './components/layout/FavouriteList';
+import FavouriteList from './components/layout/favourites/FavouriteList';
 
 // Redux
 import { Provider } from 'react-redux';

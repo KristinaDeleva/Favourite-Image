@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Album_List from './Album_List';
-import {FavouriteQantity} from '../FavouriteQantity';
+import {FavouriteQantity} from '../favourites/FavouriteQantity';
 
 // Bootstrap
 import {
