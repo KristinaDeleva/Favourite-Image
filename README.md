@@ -1,5 +1,8 @@
 # Favourite-Image - ReactJS + Redux + Redux persist
 
+## Preview
+[Click here](https://favourite-image.firebaseapp.com/)
+
 ## Installation
 
 1.  NodeJs
